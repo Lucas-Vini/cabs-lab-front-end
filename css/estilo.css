@@ -1,0 +1,118 @@
+/*Limpar formatações padrões*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{	
+	font-size: 1em;
+	font-family: "Courier New", Courier, monospace;
+	background: #F5F6CD;
+}
+
+/*Layout*/
+
+#cabecalho{
+	background: black;
+	text-align: center;
+}
+
+#titulo-cabecalho{
+	padding: 45px;
+}
+
+#menu-cabecalho{
+	background: #FF8000;
+	padding: 13px;
+}
+
+#conteudo{
+	width: 920px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+#postagens, #lateral{
+	margin-bottom: 20px;
+}
+
+#postagens{
+	background: #FAF9EB;
+	width: 620px;
+	padding: 20px;
+	float: left;
+}
+
+#lateral{
+	width: 240px;
+	float: right;
+}
+
+#rodape{
+	clear: both;
+	background: #FF8000;
+	padding: 15px;
+	text-align: center;
+	color: #8A4B08;
+}
+
+.menu-lateral{
+	background: #FAF9EB;
+	padding: 5px;
+	margin-bottom: 20px;
+}
+
+
+/*Formatação do menu-cabecalho*/
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+#cabecalho a:link, a:visited{
+	color: #8A4B08;
+	padding: 13px;
+}
+
+#cabecalho a:hover{
+	color: #FF8000;
+	background: #8A4B08;
+	text-decoration: none;
+}
+
+/*Formatações gerais*/
+
+h1{
+	color: #FFBF00;
+	font-size: 3em;
+}
+
+h2{
+	color: #FFBF00;
+}
+
+h3{
+	font-size: 1.3em;
+	color: #FFBF00;
+	padding-bottom: 10px;
+}
+
+.branco{
+	color: white;
+}
+
+.cinza{
+	color: #FAF5EC;
+}
+
+.data{
+	font-size: 0.8em;
+}
+
+.margem{
+	margin-bottom: 7px;
+}
