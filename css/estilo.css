@@ -63,20 +63,28 @@ body{
 	margin-bottom: 20px;
 }
 
+.post{
+	border-bottom: solid #F3F781 1px;
+	padding: 10px 0;
+}
+
 
 /*Formatação do menu-cabecalho*/
 a{
 	text-decoration: none;
+	color: #FF8000;
 }
 
 a:hover{
 	text-decoration: underline;
 }
 
-#cabecalho a:link, a:visited{
+#cabecalho a:link, #cabecalho a:visited{
 	color: #8A4B08;
 	padding: 13px;
 }
+
+
 
 #cabecalho a:hover{
 	color: #FF8000;
@@ -101,18 +109,19 @@ h3{
 	padding-bottom: 10px;
 }
 
-.branco{
+p{
+	color: #61210B;
+	padding-top: 17px;
+}
+
+h1>span{
 	color: white;
 }
 
-.cinza{
-	color: #FAF5EC;
-}
-
-.data{
+h2+span{
 	font-size: 0.8em;
+	color: #61210B;
 }
-
-.margem{
-	margin-bottom: 7px;
+h3~div{
+	padding-bottom: 7px;
 }
