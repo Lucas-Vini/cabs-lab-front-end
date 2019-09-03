@@ -84,10 +84,13 @@ a:hover{
 	padding: 13px;
 }
 
+ul li{
+	display: inline;
+	list-style: none;
+}
 
-
-#cabecalho a:hover{
-	color: #FF8000;
+#cabecalho a:hover, .selecionado a{
+	color: #FF8000 !important;
 	background: #8A4B08;
 	text-decoration: none;
 }
