@@ -15,6 +15,7 @@ body{
 
 #cabecalho{
 	background: black;
+	min-width: 410px;
 	text-align: center;
 }
 
@@ -28,7 +29,8 @@ body{
 }
 
 #conteudo{
-	width: 920px;
+	width: 90%;
+	min-width: 410px;
 	margin: 0 auto;
 	padding: 20px;
 }
@@ -39,13 +41,13 @@ body{
 
 #postagens{
 	background: #FAF9EB;
-	width: 620px;
+	width: 60%;
 	padding: 20px;
 	float: left;
 }
 
 #lateral{
-	width: 240px;
+	width: 30%;
 	float: right;
 }
 
