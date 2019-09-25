@@ -127,6 +127,11 @@ h2+span{
 	font-size: 0.8em;
 	color: #61210B;
 }
+
+h2~form {
+	padding-top: 17px;
+}
+
 h3~div{
 	padding-bottom: 7px;
 }
@@ -134,4 +139,14 @@ h3~div{
 textarea{
 	width: 70%;
 	height: 200px;
+	max-width: 99%;
+}
+
+input[type="text"]{
+	width: 68%;
+}
+
+label{
+	display: block;
+	cursor: pointer;
 }
