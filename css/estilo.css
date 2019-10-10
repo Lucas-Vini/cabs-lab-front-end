@@ -97,6 +97,15 @@ ul li{
 	text-decoration: none;
 }
 
+#postagens a:hover {
+	text-decoration: none;
+	color: #04B4AE;
+}
+
+#postagens a:hover div{
+	background: #F3E2A9;
+}
+
 /*Formatações gerais*/
 
 h1{
