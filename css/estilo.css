@@ -14,7 +14,7 @@ body{
 /*Layout*/
 
 #cabecalho{
-	background: black;
+	background: radial-gradient(#201f1d, black);
 	min-width: 410px;
 	text-align: center;
 }
@@ -24,7 +24,7 @@ body{
 }
 
 #menu-cabecalho{
-	background: #FF8000;
+	background: linear-gradient(#FF8000, #FFBF00);
 	padding: 13px;
 }
 
@@ -53,7 +53,7 @@ body{
 
 #rodape{
 	clear: both;
-	background: #FF8000;
+	background: linear-gradient(#FF8000, #FFBF00);
 	padding: 15px;
 	text-align: center;
 	color: #8A4B08;
@@ -63,6 +63,7 @@ body{
 	background: #FAF9EB;
 	padding: 5px;
 	margin-bottom: 20px;
+	border-radius: 20px;
 }
 
 .post{
@@ -83,7 +84,7 @@ a:hover{
 
 #cabecalho a:link, #cabecalho a:visited{
 	color: #8A4B08;
-	padding: 13px;
+	padding: 12px;
 }
 
 ul li{
@@ -141,8 +142,15 @@ h2~form {
 	padding-top: 17px;
 }
 
-h3~div{
-	padding-bottom: 7px;
+
+.menu-lateral h3{
+	padding-top: 5px;
+	padding-left: 10px;
+}
+
+.menu-lateral div{
+	padding-left: 20px;
+	padding-bottom: 10px;
 }
 
 textarea{
