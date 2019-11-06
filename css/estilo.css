@@ -13,7 +13,7 @@ body{
 
 /*Layout*/
 
-#cabecalho{
+header{
 	background: radial-gradient(#201f1d, black);
 	min-width: 410px;
 	text-align: center;
@@ -23,9 +23,10 @@ body{
 	padding: 45px;
 }
 
-#menu-cabecalho{
+nav{
 	background: linear-gradient(#FF8000, #FFBF00);
 	padding: 13px;
+	text-align: center;
 }
 
 #conteudo{
@@ -46,6 +47,7 @@ body{
 	padding: 20px;
 	float: left;
 	-moz-animation: sombra-conteudo 3s; 
+	-webkit-animation: sombra-conteudo 3s; 
 }
 
 #lateral{
@@ -53,7 +55,7 @@ body{
 	float: right;
 }
 
-#rodape{
+footer{
 	clear: both;
 	background: linear-gradient(#FF8000, #FFBF00);
 	padding: 15px;
@@ -61,16 +63,17 @@ body{
 	color: #8A4B08;
 }
 
-.menu-lateral{
+aside{
 	background: #FAF9EB;
 	box-shadow: 0px 0px 11px 5px rgba(0,0,0,0.2);
 	padding: 5px;
 	margin-bottom: 35px;
 	border-radius: 20px;
 	-moz-animation: sombra-conteudo 3s;
+	-webkit-animation: sombra-conteudo 3s;
 }
 
-.post{
+article{
 	border-bottom: solid #F3F781 1px;
 	padding: 10px 0;
 }
@@ -86,7 +89,7 @@ a:hover{
 	text-decoration: underline;
 }
 
-#cabecalho a:link, #cabecalho a:visited{
+nav a:link, nav a:visited{
 	color: #8A4B08;
 	padding: 13px;
 }
@@ -96,7 +99,7 @@ ul li{
 	list-style: none;
 }
 
-#cabecalho a:hover, .selecionado a{
+nav a:hover, .selecionado a{
 	color: #FF8000 !important;
 	background: #8A4B08;
 	text-decoration: none;
@@ -107,7 +110,7 @@ ul li{
 	color: #04B4AE;
 }
 
-#postagens a:hover div{
+#postagens a:hover article{
 	background: #F3E2A9;
 }
 
@@ -150,12 +153,12 @@ h2~form {
 }
 
 
-.menu-lateral h3{
+aside h3{
 	padding-top: 5px;
 	padding-left: 10px;
 }
 
-.menu-lateral div{
+aside div{
 	padding-left: 20px;
 	padding-bottom: 10px;
 }
@@ -179,6 +182,15 @@ label{
 /*animações*/
 
 @-moz-keyframes sombra-conteudo{
+	from{
+		box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+	}
+	to{
+		box-shadow: 0px 0px 11px 5px rgba(0,0,0,0.2);
+	}
+}
+
+@-webkit-keyframes sombra-conteudo{
 	from{
 		box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
 	}
