@@ -15,18 +15,24 @@ body{
 
 header{
 	background: radial-gradient(#201f1d, black);
-	min-width: 410px;
-	text-align: center;
 }
 
-#titulo-cabecalho{
-	padding: 45px;
-}
-
+/*Formatação da barra de navegação*/
 nav{
 	background: linear-gradient(#FF8000, #FFBF00);
-	padding: 13px;
 	text-align: center;
+}
+
+nav a:link, nav a:visited{
+	color: #8A4B08;
+	padding: 7px 6px 6px 6px;
+}
+
+nav a:hover, .selecionado a{
+	color: #FF8000 !important;
+	background: #8A4B08;
+	text-decoration: none;
+
 }
 
 #conteudo{
@@ -79,7 +85,9 @@ article{
 }
 
 
-/*Formatação do menu-cabecalho*/
+/*Formatações dos links*/
+
+
 a{
 	text-decoration: none;
 	color: #FF8000;
@@ -89,21 +97,6 @@ a:hover{
 	text-decoration: underline;
 }
 
-nav a:link, nav a:visited{
-	color: #8A4B08;
-	padding: 13px;
-}
-
-ul li{
-	display: inline;
-	list-style: none;
-}
-
-nav a:hover, .selecionado a{
-	color: #FF8000 !important;
-	background: #8A4B08;
-	text-decoration: none;
-}
 
 #postagens a:hover {
 	text-decoration: none;
@@ -118,7 +111,7 @@ nav a:hover, .selecionado a{
 
 h1{
 	color: #FFBF00;
-	font-size: 3em;
+	font-size: 2.3em;
 	text-shadow: -5px 10px black;
 }
 
@@ -137,10 +130,6 @@ h3{
 p{
 	color: #61210B;
 	padding-top: 17px;
-}
-
-h1>span{
-	color: white;
 }
 
 h2+span{
