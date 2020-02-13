@@ -14,6 +14,26 @@
 		<link rel="stylesheet" type="text/css" href="css/normalize.css">
 		<link rel="stylesheet" type="text/css" href="css/estilo.css">
 
+		<style type="text/css">
+			@media(max-width: 576px){
+				body{
+					background: #F7F8E0
+				}
+
+				#postagens{
+					width:100%;
+					float: center;
+					margin-bottom: 35px;
+				}
+
+				#lateral{
+					width: 100%;
+					float:center;
+					clear:both;
+				}
+			}
+		</style>		
+
 
 		<title>Cabs Lab</title>
 	</head>
@@ -30,7 +50,7 @@
 
 		<nav class="sticky-top">
 			<ul class="list-inline py-1">
-				<li class="list-inline-item selecionado"><a href=""><b>INÍCIO</b></a></li>
+				<li class="list-inline-item selecionado"><a href="index.html"><b>INÍCIO</b></a></li>
 				<li class="list-inline-item"><a href="sobre.html"><b>SOBRE</b></a></li>
 				<li class="list-inline-item"><a href="contato.html"><b>CONTATO</b></a></li>			
 			</ul>
@@ -38,7 +58,7 @@
 
 		<div id="conteudo">
 			
-			<div id="postagens">
+			<div id="postagens" class="float-left">
 
 				<article>
 					<h2>Postagem de testes</h2>
@@ -51,7 +71,7 @@
 
 			</div>
 
-			<div id="lateral">
+			<div id="lateral" class="float-sm-right">
 
 				<aside>
 					<h3>Postagens populares</h3>
