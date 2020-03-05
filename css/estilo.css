@@ -151,13 +151,12 @@ aside div{
 }
 
 textarea{
-	width: 70%;
+	width: 100%;
 	height: 200px;
-	max-width: 99%;
 }
 
 input[type="text"]{
-	width: 68%;
+	width: 100%;
 }
 
 label{
