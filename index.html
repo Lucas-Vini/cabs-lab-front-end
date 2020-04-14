@@ -49,12 +49,34 @@
 
 		</header>
 
-		<nav class="sticky-top">
-			<ul class="list-inline py-1">
-				<li class="list-inline-item selecionado"><a href=""><b>INÍCIO</b></a></li>
-				<li class="list-inline-item"><a href="sobre.html"><b>SOBRE</b></a></li>
-				<li class="list-inline-item"><a href="contato.html"><b>CONTATO</b></a></li>			
-			</ul>
+		<nav class="navbar navbar-light bg-warning navbar-expand-sm sticky-top">
+
+			<button class="navbar-toggler" data-toggle="collapse" data-target="#nav-menu">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="nav-menu">
+				
+				<ul class="navbar-nav nav-pills">
+					<li class="nav-item">
+						<a href="" class="nav-link active bg-light">Início</a>
+					</li>
+					<li class="nav-item">
+						<a href="sobre.html" class="nav-link">Sobre</a>
+					</li>
+					<li class="nav-item">
+						<a href="contato.html" class="nav-link">Contato</a>
+					</li>	
+				</ul>
+
+			</div>
+
+			<form class="form-inline">
+				<input type="text" class="form-control" placeholder="Pesquisar...">
+			</form>
+
+			<button class="btn btn-outline-light ml-2">OK</button>
+			
 		</nav>
 
 		<div id="conteudo">
@@ -153,6 +175,10 @@
 			Alguns direitos reservados<br>
 			Feito por <b>Lucas Vinicius</b>
 		</footer>
+
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
 	</body>
 

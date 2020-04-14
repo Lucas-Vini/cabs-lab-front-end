@@ -18,23 +18,6 @@ header{
 	background: radial-gradient(#201f1d, black);
 }
 
-/*Formatação da barra de navegação*/
-nav{
-	background: linear-gradient(#FF8000, #FFBF00);
-	text-align: center;
-}
-
-nav a:link, nav a:visited{
-	color: #8A4B08;
-	padding: 7px 6px 6px 6px;
-}
-
-nav a:hover, .selecionado a{
-	color: #FF8000 !important;
-	background: #8A4B08;
-	text-decoration: none;
-
-}
 
 #conteudo{
 	width: 90%;
