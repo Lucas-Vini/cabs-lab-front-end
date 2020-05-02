@@ -133,20 +133,6 @@ aside div{
 	padding-bottom: 10px;
 }
 
-textarea{
-	width: 100%;
-	height: 200px;
-}
-
-input[type="text"]{
-	width: 100%;
-}
-
-label{
-	display: block;
-	cursor: pointer;
-}
-
 
 /*animações*/
 
